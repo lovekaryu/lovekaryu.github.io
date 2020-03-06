@@ -1,0 +1,483 @@
+<!--
+
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+<script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+<!-- main a-frame library -->
+<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+
+<!-- physics library -->
+<script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+
+<!-- particle system library -->
+<script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+
+<!-- environment library -->
+<script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+
+<!-- text geometry library -->
+<script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+
+<!-- extras library -->
+<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <!-- base  -->
+    <a-plane position="0 0 0" rotation="-90 0 0" width="100" height="3" color="#ffffff"></a-plane>
+    <!-- camera position -->
+    <a-camera position="-1 0.5 2"></a-camera>
+
+    <!-- structures 1 -->
+    <a-plane position="-12 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#ffffff"></a-plane> -->
+    <a-text
+    value="Jan 27 2020"
+    color="black"
+    position="-12 0.5 -0.8"
+    Height="1"
+    width="1"
+    align="center">
+  </a-text>
+  <a-box position="-12 10 -21" color="#ffffff" width="0.5" height="40" depth="0.5"> </a-box>
+
+  <a-entity
+  position="-12 20 -21"
+  animation= "property: rotation;
+  to: 0 360 0;
+  dur: 5000;
+  easing: linear;
+  loop: true;">
+  <a-entity geometry="primitive: sphere"
+
+  scale="1 1 1 "
+  position="1 0 -1"
+  material="color: black"
+  animation="property: rotation;
+  to: 0 360 0;
+  dur: 1000;
+  easing: linear;
+  loop: true;">
+</a-entity>
+</a-entity>
+
+<!-- <a-entity position="0 0 -40" sound="src: sounds/1.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 2 -->
+<a-plane position="-10 0 -8" rotation="-90 0 0" width="0.5" height="15" color="#ffffff"></a-plane> -->
+<a-text
+value="Jan 28 2020"
+color="black"
+position="-10 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+<a-box position="-10 7.3 -16" color="#ffffff" depth="0.5" width="0.5" height="30"> </a-box>
+<a-entity
+position="-10 15 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 5000;
+easing: linear;
+loop: true;"> ]
+<a-entity geometry="primitive: sphere"
+scale="1 1 1 "
+position="1 0 -1"
+material="color: white"
+animation="property: rotation;
+to: 0 360 0;
+dur: 1000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+
+
+<!-- <a-entity position="0 0 -40" sound="src: sounds/2.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 3 -->
+<a-plane position="-8 0 -6" rotation="-90 0 0" width="0.5" height="10" color="#ffffff"></a-plane> -->
+<a-text
+value="Jan 29 2020"
+color="black"
+position="-8 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+<a-box position="-8 5 -11" color="#ffffff" depth="0.5" width="0.5" height="20"> </a-box>
+<a-entity
+position="-8 10 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 5000;
+easing: linear;
+loop: true;"> -->
+<a-entity geometry="primitive: sphere"
+scale="1 1 1 "
+position="1 0 -1"
+material="color: black"
+animation="property: rotation;
+to: 0 360 0;
+dur: 1000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+
+<!-- <a-entity position="0 0 -40" sound="src: sounds/3.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 4 -->
+<a-plane position="-6 0 -8" rotation="-90 0 0" width="0.5" height="14" color="#ffffff"></a-plane> -->
+<a-text
+value="Jan 30 2020"
+color="black"
+position="-6 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+
+<a-box position="-6 7 -15" color="#ffffff" depth="0.5" width="0.5" height="28"> </a-box>
+<a-entity
+position="-6 14 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 1250;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: black"
+animation="property: rotation;
+to: 0 360 0;
+dur: 360;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/4.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 5 -->
+<a-plane position="-4 0 -16" rotation="-90 0 0" width="0.5" height="30" color="#ffffff"></a-plane>
+<a-text
+value="Jan 31 2020"
+color="black"
+position="-4 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+
+<a-box position="-4 15.5 -31" color="#ffffff" depth="0.5" width="0.5" height="62"> </a-box>
+<a-entity
+position="-4 15.5 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 5000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: white"
+animation="property: rotation;
+to: 0 360 0;
+dur: 1000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/5.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 6 -->
+<a-plane position="-2 0 -11.5" rotation="-90 0 0" width="0.5" height="21" color="#ffffff"></a-plane>
+<a-text
+value="Feb 1 2020"
+color="black"
+position="-2 0.5 -0.8"
+Height="1"
+width="1"
+side="1"
+align="center">
+</a-text>
+
+<a-box position="-2 10.5 -22" color="#ffffff" depth="0.5" width="0.5" height="42"> </a-box>
+
+<a-entity
+position="-2 3 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 500;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: white"
+animation="property: rotation;
+to: 0 360 0;
+dur: 500;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/6.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 7 -->
+<a-plane position="0 0 -9" rotation="-90 0 0" width="0.5" height="16" color="#ffffff"></a-plane>
+<a-text
+value="Feb 2 2020"
+color="black"
+position="0 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+<a-box position="0 8 -17" color="#ffffff" depth="0.5" width="0.5" height="32"> </a-box>
+<a-entity
+position="0 8 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 3000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: black"
+animation="property: rotation;
+to: 0 360 0;
+dur:3000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/7.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 8 -->
+<a-plane position="2 0 -13.5" rotation="-90 0 0" width="0.5" height="25" color="#fffff1"></a-plane>
+<a-text
+value="Feb 3 2020"
+color="black"
+position="2 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+
+<a-box position="2 12.5 -26" color="#ffffff" depth="0.5" width="0.5" height="50"> </a-box>
+<a-entity
+position="2 5 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 25000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="1 1 1 "
+position="1 0 -1"
+material="color: black"
+animation="property: rotation;
+to: 0 360 0;
+dur: 25000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/8.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 9 -->
+<a-plane position="4 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#ffffff"></a-plane>
+<a-text
+value="Feb 4 2020"
+color="black"
+position="4 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+
+<a-box position="4 10 -21" color="#ffffff" depth="0.5" width="0.5" height="40"> </a-box>
+<a-entity
+position="4 5 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 20000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: white"
+animation="property: rotation;
+to: 0 360 0;
+dur: 10000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/9.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 10 -->
+<a-plane position="6 0 -11.5" rotation="-90 0 0" width="0.5" height="21" color="#ffffff"></a-plane>
+<a-text
+value="Feb 5 2020"
+color="black"
+position="6 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+<a-box position="6 10.5 -22" color="#ffffff" depth="0.5" width="0.5" height="42"> </a-box>
+<a-entity
+position="6 10 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 12000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.6 0.6 0.6 "
+position="1 0 -1"
+material="color: white"
+animation="property: rotation;
+to: 0 360 0;
+dur: 12000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/10.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 11 -->
+<a-plane position="8 0 -15.5" rotation="-90 0 0" width="0.5" height="29" color="#ffffff"></a-plane>
+<a-text
+value="Feb 6 2020"
+color="black"
+position="8 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+
+<a-box position="8 14.5 -30" color="#ffffff" depth="0.5" width="0.5" height="58"> </a-box>
+
+<a-entity
+position="8 1 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 2000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: black"
+animation="property: rotation;
+to: 0 360 0;
+dur: 2000;
+easing: linear;
+loop: true;">
+</a-entity>
+
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/11.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+<!-- structures 12 -->
+<a-plane position="10 0 -12.5" rotation="-90 0 0" width="0.5" height="23" color="#ffffff"></a-plane>
+<a-text
+value="Feb 7 2020"
+color="black"
+position="10 0.5 -0.8"
+Height="1"
+width="1"
+align="center">
+</a-text>
+
+<a-box position="10 11.5 -24" color="#ffffff" depth="0.5" width="0.5" height="46"> </a-box>
+
+<a-entity
+position="10 3 -21"
+animation= "property: rotation;
+to: 0 360 0;
+dur: 8000;
+easing: linear;
+loop: true;">
+<a-entity geometry="primitive: sphere"
+scale="0.5 0.5 0.5 "
+position="1 0 -1"
+material="color: white"
+animation="property: rotation;
+to: 0 360 0;
+dur: 8000;
+easing: linear;
+loop: true;">
+</a-entity>
+</a-entity>
+<!-- <a-entity position="0 0 -40" sound="src: sounds/12.mp3; autoplay: true; positional:true;loop:true  "></a-entity> -->
+
+
+
+<a-plane position="-14 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-14 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-16 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-16 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-18 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-18 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-20 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-20 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-22 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-22 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-24 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-24 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-26 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-26 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="-28 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="-28 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="12 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="12 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="14 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="14 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="16 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="16 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="18 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="18 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="20 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="20 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="22 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="22 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="24 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="24 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="26 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="26 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+<a-plane position="28 0 -11" rotation="-90 0 0" width="0.5" height="20" color="#000000"></a-plane>
+<a-box position="28 10 -21" color="#000000" width="0.5" height="40" depth="0.5"> </a-box>
+
+
+
+<a-sky color="red"></a-sky>
+
+</a-scene>
+</body>
+</html> -->
